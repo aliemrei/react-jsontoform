@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BasicForm from './basicForm/basicFormElement';
 import JsonForm from './jsonForm/jsonForms';
-import JsonSchemaForm from './jsonSchema';
+
 
 function App() {
   return (
