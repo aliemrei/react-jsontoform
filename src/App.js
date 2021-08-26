@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BasicForm from './basicForm/basicFormElement';
 import JsonForm from './jsonForm/jsonForms';
 
-
 function App() {
   return (
     <Router>
