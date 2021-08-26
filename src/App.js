@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BasicForm from './basicForm/basicFormElement';
 import JsonSchemaForm from './jsonForm/jsonSchema';
+import JsonForm from "./jsonForms";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/basicForm" component={BasicForm} />
+          <Route path="/jsonForm" component={JsonForm}></Route>
           <Route path="/" component={JsonSchemaForm} />
         </Switch>
       </div>
