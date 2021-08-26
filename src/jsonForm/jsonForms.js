@@ -1,11 +1,13 @@
-import { React, useState } from 'react';
+import React from 'react';
 import schema from './jsonFormSchema.json';
 import uischema from './jsonFormUISchema.json';
-//import { JsonForms } from '@jsonforms/react';
+import { JsonForms } from '@jsonforms/react';
 //import {
 //    materialCells,
 //    materialRenderers,
 //  } from '@jsonforms/material-renderers';
+
+import { useState } from 'react';
 
 const initialData = {
   name: 'Max Power'
