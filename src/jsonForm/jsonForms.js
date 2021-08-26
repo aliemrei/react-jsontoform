@@ -1,11 +1,12 @@
-import React from 'react';
+ 
 import schema from './jsonFormSchema.json';
 import uischema from './jsonFormUISchema.json';
 import { JsonForms } from '@jsonforms/react';
-import {
-    materialCells,
-    materialRenderers,
-  } from '@jsonforms/material-renderers';
+//import {
+//    materialCells,
+//    materialRenderers,
+//  } from '@jsonforms/material-renderers';
+
 import { useState } from 'react';
 
 const initialData = {
@@ -54,12 +55,12 @@ function JsonForm() {
                 </div>
                 <div className="col-md-6">
                     <JsonForms
-                        schema={schema}
-                        uischema={uischema}
-                        data={data}
-                         renderers={materialRenderers}
-                         cells={materialCells}
-                         onChange={({ errors, data }) => { onSubmit(data); setData(data); }}
+                       // schema={schema}
+                       // uischema={uischema}
+                       // data={data}
+                       //  renderers={materialRenderers}
+                       //  cells={materialCells}
+                       //  onChange={({ errors, data }) => { onSubmit(data); setData(data); }}
                     />
                 </div>
 
