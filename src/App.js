@@ -27,7 +27,7 @@ function App() {
         <Switch>
           <Route path="/basicForm" component={BasicForm} />
           <Route path="/" component={JsonSchemaForm} />
-      
+          <Route path="/jsonForm" component={JsonForm}></Route>
         </Switch>
       </div>
     </Router>
