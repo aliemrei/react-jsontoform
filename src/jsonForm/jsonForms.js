@@ -1,5 +1,4 @@
-
- import React from 'react';
+import React from 'react';
 import schema from './jsonFormSchema.json';
 import uischema from './jsonFormUISchema.json';
 import { JsonForms } from '@jsonforms/react';
