@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import { JsonForms } from '@jsonforms/react';
 import schema from './jsonFormSchema.json';
 import uischema from './jsonFormUISchema.json';
-import { JsonForms } from '@jsonforms/react';
+
 //import {
 //    materialCells,
 //    materialRenderers,
@@ -74,7 +76,9 @@ function JsonForm() {
             />
           </div>
         </div>
-        <div className="col-md-6" />
+        <div className="col-md-6">
+          <JsonForms />
+        </div>
       </div>
     </div>
   );
