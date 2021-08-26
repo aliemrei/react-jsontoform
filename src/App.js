@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BasicForm from './basicForm/basicFormElement';
 import JsonSchemaForm from './jsonSchema/jsonSchema';
+import JsonForm from './jsonForm/jsonForms';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Switch>
           <Route path="/basicForm" component={BasicForm} />
           <Route path="/" component={JsonSchemaForm} />
+          <Route path="/jsonForm" component={JsonForm} />
         </Switch>
       </div>
     </Router>
