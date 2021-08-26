@@ -26,8 +26,9 @@ function App() {
           renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/basicForm" component={BasicForm} />
-          <Route path="/" component={JsonSchemaForm} />
           <Route path="/jsonForm" component={JsonForm} />
+          <Route path="/" component={JsonSchemaForm} />
+          
         </Switch>
       </div>
     </Router>
