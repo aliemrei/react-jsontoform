@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BasicForm from './basicForm/basicFormElement';
-import JsonSchemaForm from './jsonschema/jsonschema';
+ 
 import JsonForm from './jsonForm/JsonForm';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         <Switch>
           <Route path="/basicForm" component={BasicForm} />
           <Route path="/jsonForm" component={JsonForm} />
-          <Route path="/" component={JsonSchemaForm} />
+          
         </Switch>
       </div>
     </Router>
